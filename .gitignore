@@ -1,0 +1,147 @@
+# Environment variables and API keys
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# API Keys and sensitive configuration
+**/GEMINI_API_KEY*
+**/api_key*
+**/secrets*
+config.json
+credentials.json
+
+# Excel files and data
+*.xlsx
+*.xls
+*.csv
+Test.xlsx
+Test_results*.xlsx
+*_results*.xlsx
+data/
+datasets/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Logs and debug files
+*.log
+logs/
+debug.log
+error.log
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Output and result files
+output/
+results/
+exports/
+reports/
+
+# Cache directories
+.cache/
+*.cache
+__pycache__/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# PyCharm
+.idea/
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Test files (if you don't want to commit test data)
+test_data/
+sample_data/
+mock_data/
+
+# Performance and profiling
+*.prof
+*.cprof
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Compiled files
+*.pyc
+*.pyo
+*.pyd
+
+# Documentation build
+docs/_build/
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Environment-specific
+local_settings.py
