@@ -17,7 +17,9 @@ credentials.json
 *.xls
 *.csv
 Test.xlsx
+Toast.xlsx
 Test_results*.xlsx
+Toast_results*.xlsx
 *_results*.xlsx
 data/
 datasets/
