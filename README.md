@@ -22,7 +22,7 @@ An automated candidate evaluation system that processes resumes and interview tr
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/chemicoholic21/evalgv.git
    cd evalgv
    ```
 
@@ -36,10 +36,10 @@ An automated candidate evaluation system that processes resumes and interview tr
    Create a `.env` file in the project root directory:
    ```env
    # OpenAI API Configuration
-   OPENAI_API_KEY=your_openai_api_key_here
+   OPENAI_API_KEY="your_openai_api_key_here"
    
    # Google Gemini API Configuration
-   GEMINI_API_KEY=your_gemini_api_key_here
+   GEMINI_API_KEY="your_gemini_api_key_here"
    ```
 
    **How to get API keys:**
@@ -78,7 +78,7 @@ python gem.py
 - Uses Google Gemini models (gemini-2.5-flash, gemini-2.5-pro)
 - Optimized batch processing
 - Built-in error handling and retry logic
-- Output: `Test_results.xlsx`
+- Output: `Sample_filename.xlsx`
 
 ### Option 2: Using OpenAI GPT API
 
@@ -90,7 +90,7 @@ python open.py
 - Uses OpenAI GPT models (gpt-4o)
 - Parallel processing with ThreadPoolExecutor
 - Configurable worker threads
-- Output: `Toast_results.xlsx`
+- Output: `Sample_filename_results.xlsx`
 
 ## 📊 Input Data Format
 
