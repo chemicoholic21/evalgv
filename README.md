@@ -26,12 +26,26 @@ An automated candidate evaluation system that processes resumes and interview tr
    cd evalgv
    ```
 
-2. **Install required packages**
+2. **Create a virtual environment and activate the virtual environment**
+    ```bash
+    python -m venv venv
+    ```
+
+    ```bash
+    ./venv/Scripts/activate
+    ```
+
+    or for mac 
+    ```bash
+    source venv/bin/activate
+    ```
+
+3. **Install required packages**
    ```bash
    pip install -r requirements.txt
    ```
 
-3. **Set up environment variables**
+4. **Set up environment variables**
    
    Create a `.env` file in the project root directory:
    ```env
